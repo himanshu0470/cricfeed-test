@@ -1,0 +1,46 @@
+.timer-css {
+    animation: scaleIn 0.5s ease-in-out;
+  }
+  
+  @keyframes scaleIn {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .flip-clock {
+    --fcc-flip-duration: 0.5s;
+    --fcc-digit-block-width: 15px;
+    --fcc-digit-block-height: 18px;
+    --fcc-digit-font-size: 12px;
+    --fcc-digit-color: white;
+    --fcc-background: black;
+    --fcc-label-color: #ffffff;
+    --fcc-divider-color: #ffffff66;
+}
+  
+  ._2hRXr {
+      margin-left: 0px;
+      margin-right: 0px;
+      height: var(--fcc-digit-block-height);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  ._2aOn7 {
+      color: black;
+      line-height: 1;
+      font-weight: 400;
+      font-size: 9px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 150%);
+  }
